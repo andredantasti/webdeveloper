@@ -3,3 +3,24 @@ p{
     background-color: antiquewhite;
 }
 
+#paragrafo1-teclado{
+    color: aqua;
+    background-color: black;    
+}
+#paragrafo2-teclado{
+    color: white;
+    background-color: darkkhaki;
+}
+#historia{
+    background-color: blanchedalmond;
+}
+.paragrafo1-teclado{
+    color: brown;
+}
+.paragrafo-historia{
+    color: deeppink;
+    background-color:greenyellow;
+}
+.historia{
+    background-color: rgb(18, 65, 65);
+}
