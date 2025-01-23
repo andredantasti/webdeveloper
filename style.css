@@ -1,5 +1,5 @@
 p{
-    color: tomato;
+    color: rgb(255, 92, 71);
     background-color: antiquewhite;
 }
 
@@ -22,5 +22,18 @@ p{
     background-color:greenyellow;
 }
 .historia{
-    background-color: rgb(18, 65, 65);
+    background-color: rgb(4, 54, 54);
+}
+
+.fundo-div{
+    width: 800px;
+    height: 700px;
+    background-image: url('./img/imagemfundo.jpg');
+    background-size:cover;
+}
+
+.fundo-paragrafo{
+    background-image: url('./img/fundoabstrato.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
