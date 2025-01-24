@@ -14,10 +14,12 @@
 .imagem-logo{
     list-style: none;
     align-self: center;   
+    
 }
 
 .logo{
     cursor: pointer;
     box-shadow: rgba(17, 12, 10, 0.644) 0px 4px 9px 9px;
-    transform:rotateZ(-8deg)
+    transition: 1.5s;
+    transform:rotateZ(-3978deg);
 }

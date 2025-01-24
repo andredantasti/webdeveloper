@@ -1,0 +1,25 @@
+.topo{
+    font-size: 35px;
+}
+
+.lista{
+    font-size: 16px;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;    
+}
+
+h1{
+    transition: 0.5s ease-in-out;
+}
+h1:hover{
+    color: brown;
+}
+.paragrafo1{
+    color:cornflowerblue ;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+.paragrafo1:hover{
+    color: chocolate;
+}
