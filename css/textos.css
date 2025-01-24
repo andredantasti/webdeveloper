@@ -1,0 +1,29 @@
+body{
+    text-indent: 50px;
+}
+
+.titulo-principal{
+    text-transform: capitalize;
+    text-decoration:overline underline orangered;
+    text-align: center;
+    text-shadow:1px 1px 1px #fff, 2px 2px 0 #ccc, 3px 3px 0 #aaa;
+}
+
+.paragrafo1{
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.paragrafo2{
+    text-align: justify;
+}
+
+.titulo2{
+    color: rgb(253, 25, 25);
+    text-shadow: 2px 1px 3px black;
+}
+
+.titulo3{
+    color:black;
+    text-shadow: 2px 2px 5px red;
+}
