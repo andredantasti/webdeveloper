@@ -19,10 +19,10 @@ p{
 }
 .paragrafo-historia{
     color: deeppink;
-    background-color:greenyellow;
+    
 }
 .historia{
-    background-color: rgb(4, 54, 54);
+    background: linear-gradient(to left,  red, blue 25%, green);
 }
 
 .fundo-div{
