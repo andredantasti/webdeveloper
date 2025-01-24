@@ -1,0 +1,23 @@
+.topo-logo{
+    display: flex;
+    justify-content: center;   
+    background: linear-gradient(120deg, rgba(38, 0, 255, 0.685), rgba(236, 88, 35, 0.644), rgb(255, 145, 0));
+    height: 250px;
+    border-style:groove;
+    border-width: 6px;
+    border-top-color: black;
+    border-left-color: blueviolet;
+    border-bottom-color: black;
+    border-right-color: chocolate;
+    }
+
+.imagem-logo{
+    list-style: none;
+    align-self: center;   
+}
+
+.logo{
+    cursor: pointer;
+    box-shadow: rgba(17, 12, 10, 0.644) 0px 4px 9px 9px;
+    transform:rotateZ(-8deg)
+}
