@@ -3,10 +3,11 @@
     <head>
         <title>Listas</title>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <h4><a href="http://127.0.0.1:5500/index.html">Home</a>
-        <H2>Minhas Compras</H2>
+        <H2 class="titulo1">Minhas Compras</H2>
         <ul>
             <li>Arroz</li>
             <li>Feijão</li>
@@ -17,10 +18,19 @@
         </ul>
 
         <h1>Lista de Prioridades</h1>
-        <ol start="0" type="1"> <!--Lista Ordenada-->
+        <ol start="0" type="1" class="lista-ordenada1"> <!--Lista Ordenada-->
             <li>Treinar o que aprendi no curso</li>
             <li>Assistir novamente as aulas que tiver dificuldade</li>
             <li>Fazer exercícios</li>
+            <li>Mais Exercícios</li>
+            <ul class="lista-nao-ordenada">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <ul>
+                    <li>Typescript</li>
+                </ul>
+            </ul>
         </ol>
 
         

@@ -37,3 +37,20 @@ p{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+ul{
+    list-style:circle;
+    border: 1px red;
+    border-style: dotted;
+    list-style-position: inside;
+    padding: 0
+    ;
+}
+
+ol{
+   border: 2px solid blue;
+}
+
+li{
+    border: 2px solid pink;
+}
