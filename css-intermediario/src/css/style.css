@@ -1,0 +1,88 @@
+body {
+  font-size: 20px;
+}
+
+.quadro {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+}
+
+.blue {
+  background-color: blue;
+  position: absolute;
+  margin-left: 30px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    float: none;
+    text-align: center;
+  }
+  .menu {
+    float: none;
+    text-align: center;
+  }
+
+  li {
+    float: none;
+  }
+}
+
+.top-botao {
+  height: 150px;
+  background-color: orangered;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.menu {
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  float: left;
+  transform: rotateZ(2510deg);
+  transition: 2s;
+}
+li {
+  background-color: black;
+  float: left;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: burlywood;
+  padding: 2px;
+}
