@@ -9,9 +9,12 @@
   <body>
     <form method="get" action="/formulario.html">
       Nome: <input type="text" name="nome" /> <br />
-      E-mail: <input type="text" name="email" /> <br />
+      Data de Nascimento: <input type="date" name="dt-nascimento" /><br />
+      E-mail: <input type="email" name="email" /> <br />
+      Telefone: <input type="tel" name="telefone" /><br />
       Senha: <input type="password" name="senha" /><br />
       <br />
+      RG <input type="number" max="10" />
       Estado
       <select name="estados">
         <option value="Acre">AC</option>
@@ -48,6 +51,12 @@
       <input type="radio" name="genero" value="femin" /> Feminino<br />
       <br />
       <textarea name="mensagem" id="">Digite aqui</textarea>
+      <br /><br />
+      Escolha a cor do seu perfil <br /><input
+        type="color"
+        name="cor"
+      /><br /><br />
+      Insira uma foto (PNG ou JPEG) <br /><input type="file" name="foto" />
       <br /><br />
       <input type="reset" value="Limpar" />
 
