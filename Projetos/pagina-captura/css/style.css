@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    width: 1000px;
+    max-width: 1000px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     margin-top: 0px;
@@ -13,17 +13,21 @@ body{
     margin-left: 25%;
     margin-bottom: 25%;
     height: 700px;
+    margin: auto;
     
 }
 header{
     text-align: center;
     height: 70px;
     background-color: rgb(4, 197, 223);
-    line-height: 2.8;
+    padding: 10px;
     width: 100%;
     margin-top: 0;
     color: white;
-    padding: 0;
+}
+.header{
+    margin: 0px;
+    padding: 0px;
 }
 
 .imagem-background{
@@ -57,19 +61,22 @@ footer{
 .formulario{
     background-color: rgba(255, 250, 250, 0.705);
     color: black;
-    width: 250px;    
+    max-width: 250px;    
     position:absolute;
     margin-left: 35.5%;
     margin-top: 1.3%;
     padding: 25px;
+    float: right;
 
 
 }
 
 input, select{
     margin-top: 10px;
-    width: 90%;
+    width: 100%;
     padding: 10px;
+    box-sizing: border-box;
+    border: none;
 }
 
 
@@ -80,15 +87,28 @@ input, select{
     padding: 10PX;
     border: none;
     width: 100%;
+    cursor: pointer;
 }
 
-.conteudo{
-    display: flex;
-    
+.botao-inscreva:hover{
+    background-color: black;
 }
 
 main{
     height: 540px;
     background-image: url("../images/people.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position-x: calc(100%-10) center;
 }
