@@ -16,6 +16,12 @@ function changeH1(){
 function hideH1(){
     let texto = document.getElementsByTagName("div")[0];
     console.log(texto)
-    texto.style.display = "none"
+     texto.style.backgroundColor = "red";
+   
 }
 
+function corInicial(){
+    let texto = document.getElementsByTagName("div")[0];
+
+    texto.style.backgroundColor = "pink"
+}
